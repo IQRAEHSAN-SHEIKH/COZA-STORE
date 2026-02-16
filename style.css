@@ -1,0 +1,264 @@
+/* ===== HEADER ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 40px;
+}
+.site-header i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.site-header i:hover {
+  color: #717fe0;
+}
+
+/* LOGO */
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 800;
+  color: #000 !important;
+}
+
+/* NAV LINKS */
+.navbar-nav .nav-link {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #717fe0;
+}
+
+
+
+/* Home active */
+.navbar-nav .nav-link.text-primary {
+  color: #717fe0 !important;
+}
+
+
+/* BADGE */
+.site-header .badge {
+  font-size: 10px;
+  padding: 3px 6px;
+  top: -8px !important; /* adjust vertical */
+  left: 65% !important; /* adjust horizontal */
+  background-color: #717fe0;
+}
+
+/* HAMBURGER BUTTON */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 10px 0;
+  }
+
+  /* icons center on mobile */
+  .d-lg-none {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+/* MOBILE */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/*header khatam*/
+
+
+/*..................................for crousel....................................*/
+
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  color: #000;
+}
+.carousel-caption p{
+  font-size: 30px;
+  color: #000;
+}
+
+.carousel-caption h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/*.................................. crousel end ....................................*/
+
+
+
+
+/* ===== PRODUCT CARD IMAGE HOVER EFFECT (HOME PAGE) ===== */
+
+.card {
+  overflow: hidden;   /* image card ke bahar na nikle */
+}
+
+.card img {
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+
+
+/* ===== PRODUCT CARD IMAGE HOVER EFFECT (HOME PAGE) ===== */
+
+/* ..............................for #loader .........................*/
+
+#loader {
+  font-size: 20px;
+  color: #717fe0;
+
+}
+
+/* .....................................button*................................*/
+
+.load-btn-div{
+  padding:40px 20px;
+}
+
+
+.load-btn{
+  background:#f5f5f5;
+  color:#000;
+  border:1px solid #000;
+  padding:14px 38px;
+  transition:.3s;
+}
+
+
+.load-btn:hover{
+  background:#000;
+  color:#fff;
+  transform:translateY(-3px);
+}
+
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #111;
+  padding: 50px 20px;
+  color: #999;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADINGS */
+.footer b {
+  color: #fff;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* LIST STYLE REMOVE */
+.footer ul,
+.footer li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* LINKS */
+.footer a {
+  color: #999;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+/* PARAGRAPH */
+.footer p {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ICONS */
+.footer span i {
+  color: #777;
+  margin-right: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer span i:hover {
+  color: #717fe0;
+}
+
+/* SUBSCRIBE BUTTON */
+.subs {
+  margin-top: 10px;
+  background-color: #717fe0;
+  color: #fff;
+  border: 1px solid #717fe0;
+  padding: 8px 20px !important;
+
+
+  border-radius: 30%;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.subs:hover {
+  background-color: #fff !important;
+  color: #717fe0 !important;
+}
+
+/* FOOTER BOTTOM LINE */
+.footer>p {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer>p i {
+  color: #777;
+}
+.nm-highlght{
+  color: chocolate;
+   font-weight: bolder;
+}
+.nm-highlght:hover{
+  color: darkorange;
+  font-weight: bolder;
+  font: 20px;
+  font-size: 1.2rem ;
+}

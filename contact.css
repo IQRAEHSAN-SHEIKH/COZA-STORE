@@ -1,0 +1,69 @@
+.contact-img-div {
+  background-image: url("https://plus.unsplash.com/premium_photo-1732563561246-0432d3af8144?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-img-div h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+/* CONTACT SECTION */
+.contact-wrapper {
+  padding: 4rem 3rem;
+}
+
+.contact-box {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* FORM */
+.contact-form {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  background: #717fe0;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+}
+
+/* INFO */
+.contact-info {
+  flex: 1;
+}
+
+.contact-info i {
+  color: #717fe0;
+  margin-right: 10px;
+}
+
+/* MAP */
+.map-box iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+  }
+}

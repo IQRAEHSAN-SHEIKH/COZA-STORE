@@ -59,7 +59,7 @@ Web Development Student
 
 ---
 
-## 🙏 Acknowledgement
+## Acknowledgement
 
 This project is created as a Web Development Assignment.
 
